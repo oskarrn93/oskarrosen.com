@@ -1,0 +1,163 @@
+
+@font-face
+{
+	font-family: 'GeosansLight';
+	src: url('/fonts/GeosansLight.ttf');
+}
+
+body
+{
+	height: 100%;
+	/*background:url('img/bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover; /* For WebKit*/
+    /*-moz-background-size: cover;    /* Mozilla*/
+    /*-o-background-size: cover;      /* Opera*/
+    /*background-size: cover;         /* Generic*/*/
+
+		/*background: rgba(200,220,239,1);
+		background: -moz-radial-gradient(center, ellipse cover, rgba(200,220,239,1) 0%, rgba(200,220,239,1) 63%, rgba(148,184,224,1) 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(200,220,239,1)), color-stop(63%, rgba(200,220,239,1)), color-stop(100%, rgba(148,184,224,1)));
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(200,220,239,1) 0%, rgba(200,220,239,1) 63%, rgba(148,184,224,1) 100%);
+		background: -o-radial-gradient(center, ellipse cover, rgba(200,220,239,1) 0%, rgba(200,220,239,1) 63%, rgba(148,184,224,1) 100%);
+		background: -ms-radial-gradient(center, ellipse cover, rgba(200,220,239,1) 0%, rgba(200,220,239,1) 63%, rgba(148,184,224,1) 100%);
+		background: radial-gradient(ellipse at center, rgba(200,220,239,1) 0%, rgba(200,220,239,1) 63%, rgba(148,184,224,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8dcef', endColorstr='#94b8e0', GradientType=1 );*/
+
+		/* IE10+ */
+	background-image: -ms-linear-gradient(top left, rgb(255,255,255) 0%, rgb(246,246,246) 20%, rgb(227,234,255) 100%);
+
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(top left, rgb(255,255,255) 0%, rgb(246,246,246) 20%, rgb(227,234,255) 100%);
+
+	/* Opera */
+	background-image: -o-linear-gradient(top left, rgb(255,255,255) 0%, rgb(246,246,246) 20%, rgb(227,234,255) 100%);
+
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, rgb(255,255,255)), color-stop(20, rgb(246,246,246)), color-stop(100, rgb(227,234,255)));
+
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(top left, rgb(255,255,255) 0%, rgb(246,246,246) 20%, rgb(227,234,255) 100%);
+
+	/* W3C Markup */
+	background-image: linear-gradient(to bottom right, rgb(255,255,255) 0%, rgb(246,246,246) 20%, rgb(227,234,255) 100%);
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color:#DDD;
+	opacity:20%;
+}
+
+
+
+.profile-picture
+{
+	margin: 0 auto;
+	min-width: 479px;
+	max-width: 30%;
+	max-height: 30%;
+}
+
+@media screen and (max-width: 479px)
+{
+	.profile-picture
+	{
+		margin: 0 auto;
+		min-width: 200px;
+		max-width: 90%;
+		max-height: 30%;
+	}
+}
+
+.icon
+{
+	display:inline-block;
+	/*margin:5px 15px;*/
+	padding:5px;
+}
+
+.icon:hover, .icon:active
+{
+	opacity: 0.6;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.smiley
+{
+	bottom:-30px;
+	width: 31px;
+	height: 31px;
+}
+
+#contact > a:link
+{
+	/*color: #FF00DD;*/
+	color: #2200cc !important;
+	text-decoration:none;
+}
+
+/* visited link */
+#contact > a:visited
+{
+	color: #2200cc !important;
+	text-decoration:none;
+}
+
+.circular
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.hr-small
+{
+	width: 20% !important;
+}
+
+.hr-large
+{
+	width: 50% !important;
+}
+
+.color-black
+{
+	color: black !important;
+	border-color: black !important;
+	/*background-color: black !important;*/
+}
+
+/*h1
+{
+	font-size: 2em !important;
+}
+
+p
+{
+	font-size: 2em !important;
+}*/
+.navbar ul > li > a
+{
+	font-size: 24px !important;
+}
+.navbar-brand
+{
+	font-size: 30px !important;
+}
+
+h1{ font-size: 5em !important;}
+h2{ font-size: 4em !important;}
+h3{ font-size: 2em !important;}
+h4{ font-size: 1.5em !important;}
+h5{ font-size: 1em !important;}
+p{ font-size: 1.7em !important;}
+*
+{
+ 	font-family: 'GeosansLight', Helvetica, Arial, sans-serif;
+	/*font-size: 24px !important;*/
+}
