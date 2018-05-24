@@ -1,2 +1,0 @@
-# oskarrosen.com
-My website
